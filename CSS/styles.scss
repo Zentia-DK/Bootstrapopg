@@ -6,7 +6,14 @@ $spacer: 1rem;
 $tablet: "screen and (min-width: 754px)";
 $computer: "screen and (min-width:1200px)";
 
-
+.btn {
+  height: 65px;
+  width: 250px;
+  border-radius: 50px;
+  background-color:black;
+  color:#FFF;
+  border: 8px solid #28B8C4;
+}
 
 
 
