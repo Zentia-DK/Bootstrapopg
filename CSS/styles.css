@@ -5,7 +5,11 @@
   border-radius: 50px;
   background-color: black;
   color: #FFF;
-  border: 8px solid #28B8C4; }
+  border: 8px solid;
+  border-left-color: #28B8C4;
+  border-right-color: #5D5AD1;
+  border-block-start-color: #28B8C4;
+  border-block-end-color: #5D5AD1; }
 
 * {
   /* Gælder alt på hele siden */
