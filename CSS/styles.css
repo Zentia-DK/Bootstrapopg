@@ -54,4 +54,10 @@ img {
   height: auto;
   /* Højden skal tilpasse sig */ }
 
+.bro {
+  background-image: url("../Images/mobilsidste.png");
+  background-repeat: no-repeat;
+  width: 320px; }
+
+
 /*# sourceMappingURL=styles.css.map */

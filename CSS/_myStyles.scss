@@ -6,6 +6,7 @@
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,4 +34,9 @@ img {
   display: block; /* Billeder er et element (laver linjeskift) */
   max-width: 100%; /* Bredde må maks fylde 100% */
   height: auto; /* Højden skal tilpasse sig */
+}
+.bro{
+  background-image: url("../Images/mobilsidste.png");
+  background-repeat: no-repeat;
+  width: 320px;
 }
