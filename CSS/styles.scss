@@ -3,14 +3,16 @@ $theme-colors: (
         "danger": #ff4136,
 );
 $spacer: 1rem;
+$myStyles: "screen and (min-width: 320px)";
 $tablet: "screen and (min-width: 768px)";
 $computer: "screen and (min-width:1200px)";
 
-.btn {
+
+.btn1 {
   height: 65px;
   width: 250px;
-  border-radius: 50px;
-  background-color:black;
+  border-radius: 50px !important;
+  background-color:black !important;
   color:#FFF;
   border: 8px solid;
   border-left-color: #28B8C4;
@@ -20,10 +22,12 @@ $computer: "screen and (min-width:1200px)";
 }
 
 
+.carousel-indicators{
+  width: 270px;
+  height: 514px;
+}
 
-
-
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import "tablet";
 @import  "computer";
 @import "myStyles";

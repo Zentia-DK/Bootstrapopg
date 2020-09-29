@@ -1,10 +1,12 @@
 @media #{$tablet} {
 
   .bro{
-    background-image: url("../Images/tabletsidste.png");
+    background-image: url("../Images/storbro.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 768px;
-    height: 415px;
+    height: 412px;
   }
 
 
@@ -20,5 +22,7 @@
     border-block-start-color: #0BDBA3;
     border-block-end-color: #0BDBA3;
   }
+
+
 
 }
