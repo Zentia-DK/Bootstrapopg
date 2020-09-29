@@ -11,10 +11,6 @@
   border-block-start-color: #28B8C4;
   border-block-end-color: #5D5AD1; }
 
-.carousel-indicators {
-  width: 270px;
-  height: 514px; }
-
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7188,7 +7184,24 @@ a.text-dark:hover, a.text-dark:focus {
     border-left-color: #0BDBA3;
     border-right-color: #0BDBA3;
     border-block-start-color: #0BDBA3;
-    border-block-end-color: #0BDBA3; } }
+    border-block-end-color: #0BDBA3; }
+  #facebook {
+    height: 80px;
+    width: 80px; }
+  #youtube {
+    height: 80px;
+    width: 80px; }
+  #instagram {
+    height: 80px;
+    width: 80px; }
+  #twitter {
+    height: 80px;
+    width: 80px; }
+  #linkedin {
+    height: 80px;
+    width: 80px; }
+  .p1 {
+    font-size: 45px; } }
 
 @media screen and (min-width: 1200px) {
   .bro {
@@ -7208,7 +7221,24 @@ a.text-dark:hover, a.text-dark:focus {
     border-left-color: #0BDBA3;
     border-right-color: #0BDBA3;
     border-block-start-color: #0BDBA3;
-    border-block-end-color: #0BDBA3; } }
+    border-block-end-color: #0BDBA3; }
+  #facebook {
+    height: 90px;
+    width: 90px; }
+  #youtube {
+    height: 90px;
+    width: 90px; }
+  #instagram {
+    height: 90px;
+    width: 90px; }
+  #twitter {
+    height: 90px;
+    width: 90px; }
+  #linkedin {
+    height: 90px;
+    width: 90px; }
+  .p1 {
+    font-size: 60px; } }
 
 * {
   /* Gælder alt på hele siden */
@@ -7271,6 +7301,8 @@ img {
     border-left-color: #0BDBA3;
     border-right-color: #0BDBA3;
     border-block-start-color: #0BDBA3;
-    border-block-end-color: #0BDBA3; } }
+    border-block-end-color: #0BDBA3; }
+  .p1 {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */
