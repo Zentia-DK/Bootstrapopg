@@ -11,6 +11,42 @@
   border-block-start-color: #28B8C4;
   border-block-end-color: #5D5AD1; }
 
+@media screen and (min-width: 768px) {
+  .bro {
+    background-image: url("../Images/tabletsidste.png");
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 415px; }
+  .btn2 {
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #0BDBA3;
+    color: #FFF;
+    border: 8px solid;
+    border-left-color: #0BDBA3;
+    border-right-color: #0BDBA3;
+    border-block-start-color: #0BDBA3;
+    border-block-end-color: #0BDBA3; } }
+
+@media screen and (min-width: 1200px) {
+  .bro {
+    background-image: url("../Images/tabletsidste.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 412px; }
+  .btn2 {
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #0BDBA3;
+    color: #FFF;
+    border: 8px solid;
+    border-left-color: #0BDBA3;
+    border-right-color: #0BDBA3;
+    border-block-start-color: #0BDBA3;
+    border-block-end-color: #0BDBA3; } }
+
 * {
   /* Gælder alt på hele siden */
   box-sizing: border-box;
@@ -57,7 +93,19 @@ img {
 .bro {
   background-image: url("../Images/mobilsidste.png");
   background-repeat: no-repeat;
-  width: 320px; }
+  width: 290px;
+  height: 514px; }
 
+.btn2 {
+  height: 45px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: #0BDBA3;
+  color: #FFF;
+  border: 8px solid;
+  border-left-color: #0BDBA3;
+  border-right-color: #0BDBA3;
+  border-block-start-color: #0BDBA3;
+  border-block-end-color: #0BDBA3; }
 
 /*# sourceMappingURL=styles.css.map */
