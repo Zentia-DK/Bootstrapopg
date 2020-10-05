@@ -1,23 +1,86 @@
 $theme-colors: (
         "primary": #8a0bdb,
         "danger": #ff4136
+        "primary": purple,
+        "danger":#8A0BDB,
+        "green": green,
+
+        "primary": #8A0BDB,
+        "danger": #ff4136,
 );
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 $spacer: 1rem;
-$tablet: "screen and (min-width: 754px)";
+$myStyles: "screen and (min-width: 320px)";
+$tablet: "screen and (min-width: 768px)";
 $computer: "screen and (min-width:1200px)";
 
 .pcworkspace{
   width:100%;
   }
+body{
+  background-image: url("../Images/mobilforside.png") ;
+  background-repeat: no-repeat;
+}
+
+.span{
+  border: none;
+}
+
+.navbar-toggler-icon{
+  border:none;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+.middle-text{
+  display: none;
+}
+
+.btn1 {
+  height: 65px !important;
+  width: 250px !important;
+  border-radius: 50px !important;
+  background-color:black !important;
+  color:#FFF !important;
+  border: 8px solid !important;
+  border-left-color: #28B8C4 !important;
+  border-right-color:#5D5AD1 !important;
+  border-block-start-color: #28B8C4 !important;
+  border-block-end-color: #5D5AD1 !important;
+}
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.btn1 {
+  height: 65px;
+  width: 250px;
+  border-radius: 50px !important;
+  background-color:black !important;
+  color:#FFF;
+  border: 8px solid;
+  border-left-color: #28B8C4;
+  border-right-color:#5D5AD1;
+  border-block-start-color: #28B8C4;
+  border-block-end-color: #5D5AD1;
+}
 
-@import "node_modules/bootstrap/scss/bootstrap";
+.row{
+  display: flex;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 @import "tablet";
 @import  "computer";
 @import "myStyles";
+
+
+
 
 
 

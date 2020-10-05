@@ -1,5 +1,76 @@
 @media #{$tablet} {
 
+  body{
+    background-image: url("../Images/tabletforside.png");
+    background-repeat: no-repeat;
+  }
 
+  .size{
+    font-size: 55px;
+  }
+
+  .size2{
+    font-size: small;
+  }
+
+  .middle-text{
+    display: grid;
+  }
+  .bro {
+    background-image: url("../Images/storbro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 768px;
+    height: 412px;
+  }
+
+
+  .btn2 {
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #0BDBA3;
+    color: #FFF;
+    border: 8px solid;
+    border-left-color: #0BDBA3;
+    border-right-color: #0BDBA3;
+    border-block-start-color: #0BDBA3;
+    border-block-end-color: #0BDBA3;
+  }
+  #facebook {
+    height: 80px;
+    width: 80px;
+
+  }
+
+  #youtube {
+    height: 80px;
+    width: 80px;
+
+  }
+
+  #instagram {
+    height: 80px;
+    width: 80px;
+
+  }
+
+  #twitter {
+    height: 80px;
+    width: 80px;
+
+  }
+
+  #linkedin {
+    height: 80px;
+    width: 80px;
+
+  }
+
+  .p1{
+    font-size: 45px;
+
+  }
 
 }

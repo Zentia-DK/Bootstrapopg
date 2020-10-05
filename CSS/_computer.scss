@@ -1,5 +1,66 @@
 @media #{$computer} {
+  body{
+    background-image: url("../Images/pcforside.png");
+    background-repeat: no-repeat;
+  }
 
+  .bro{
+    background-image: url("../Images/storbro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 1920px;
+    height: 412px;
+  }
 
+  .btn2 {
+    height:10px;
+    width: 20px;
+    border-radius: 20px;
+    background-color:#0BDBA3;
+    color:#FFF;
+    border: 8px solid;
+    border-left-color: #0BDBA3;
+    border-right-color:#0BDBA3;
+    border-block-start-color: #0BDBA3;
+    border-block-end-color: #0BDBA3;
+  }
+
+  #facebook{
+    height: 90px;
+    width: 90px;
+
+  }
+  #youtube {
+    height: 90px;
+    width: 90px;
+
+  }
+
+.middle-text{
+  font-size: 60px;
+}
+  #instagram {
+    height: 90px;
+    width: 90px;
+
+  }
+
+  #twitter {
+    height: 90px;
+    width: 90px;
+
+  }
+
+  #linkedin {
+    height: 90px;
+    width: 90px;
+
+  }
+
+  .p1{
+    font-size: 60px;
+
+  }
 
 }

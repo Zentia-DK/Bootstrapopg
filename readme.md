@@ -25,7 +25,7 @@ XD filen er baseret på Bootstraps 12 kolonners grid
 Designet er sterilt og anonymt, så brug gerne noget tid på at give designet jeres eget præg.
 
 
-
+font type Nunito
 
 
 // Extra small devices (portrait phones, less than 576px)
