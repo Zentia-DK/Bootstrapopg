@@ -1,5 +1,21 @@
 @media #{$tablet} {
 
+  body{
+    background-image: url("../Images/tabletforside.png");
+    background-repeat: no-repeat;
+  }
+
+  .size{
+    font-size: 55px;
+  }
+
+  .size2{
+    font-size: small;
+  }
+
+  .middle-text{
+    display: grid;
+  }
 
 
 }

@@ -1,5 +1,10 @@
 @media #{$computer} {
+  body{
+    background-image: url("../Images/pcforside.png");
+    background-repeat: no-repeat;
+  }
 
-
-
+.middle-text{
+  font-size: 60px;
+}
 }
