@@ -65,7 +65,9 @@ body{
   display: flex;
 }
 
-
+img {
+  border-radius: 50%;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
