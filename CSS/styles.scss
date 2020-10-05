@@ -1,4 +1,6 @@
 $theme-colors: (
+        "primary": #8a0bdb,
+        "danger": #ff4136
         "primary": purple,
         "danger":#8A0BDB,
         "green": green,
@@ -14,6 +16,9 @@ $myStyles: "screen and (min-width: 320px)";
 $tablet: "screen and (min-width: 768px)";
 $computer: "screen and (min-width:1200px)";
 
+.pcworkspace{
+  width:100%;
+  }
 body{
   background-image: url("../Images/mobilforside.png") ;
   background-repeat: no-repeat;
@@ -27,6 +32,7 @@ body{
   border:none;
 }
 
+@import "../node_modules/bootstrap/scss/bootstrap";
 .middle-text{
   display: none;
 }
@@ -74,5 +80,9 @@ img {
 @import "tablet";
 @import  "computer";
 @import "myStyles";
+
+
+
+
 
 
