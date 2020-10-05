@@ -3,12 +3,15 @@ $theme-colors: (
         "danger":#8A0BDB,
         "green": green,
 
+        "primary": #8A0BDB,
+        "danger": #ff4136,
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 $spacer: 1rem;
-$tablet: "screen and (min-width: 754px)";
+$myStyles: "screen and (min-width: 320px)";
+$tablet: "screen and (min-width: 768px)";
 $computer: "screen and (min-width:1200px)";
 
 body{
@@ -45,13 +48,29 @@ body{
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.btn1 {
+  height: 65px;
+  width: 250px;
+  border-radius: 50px !important;
+  background-color:black !important;
+  color:#FFF;
+  border: 8px solid;
+  border-left-color: #28B8C4;
+  border-right-color:#5D5AD1;
+  border-block-start-color: #28B8C4;
+  border-block-end-color: #5D5AD1;
+}
+
 .row{
   display: flex;
 }
 
 
 
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 @import "tablet";
 @import  "computer";
 @import "myStyles";
+
 
