@@ -1,16 +1,23 @@
 $theme-colors: (
-        "primary": #0074d9,
+        "primary": #8a0bdb,
         "danger": #ff4136
 );
 $spacer: 1rem;
 $tablet: "screen and (min-width: 754px)";
 $computer: "screen and (min-width:1200px)";
 
+.pcworkspace{
+  width:100%;
+  }
 
 
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "tablet";
 @import  "computer";
 @import "myStyles";
+
+
+
