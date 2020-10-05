@@ -35,6 +35,33 @@ img {
   max-width: 100%; /* Bredde må maks fylde 100% */
   height: auto; /* Højden skal tilpasse sig */
 }
+.rainbowbox1{
+  background-image: url("../Images/mobile_colored_box.png");
+  background-repeat: no-repeat;
+  width: 320px;
+}
+
+.btn{
+    height: 65px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: black;
+    color: #FFF;
+    border: 8px solid;
+    border-left-color: #28B8C4;
+    border-right-color: #5D5AD1 ;
+    border-block-start-color: #28B8C4;
+    border-block-end-color: #5D5AD1;
+    }
+
+.btn1{
+  height: 65px;
+  width: 250px;
+  border-radius: 50px;
+  background-color:white;
+  color:#000000;
+
+}
 
 @media #{$myStyles} {
 
@@ -74,3 +101,8 @@ img {
 
 }
 
+
+.pcworkspace{
+height: 320px;
+
+}
