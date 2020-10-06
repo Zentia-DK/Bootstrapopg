@@ -37,18 +37,15 @@ img {
 }
 
 @media #{$myStyles} {
-
-
-
-
-.btn1{
-  height: 65px;
-  width: 250px;
-  border-radius: 50px;
-  background-color:white;
-  color:#000000;
-
+.standard{
+  background-image: url("../Images/mobile_colored_box.png");
+  background-repeat: no-repeat;
+  width: 100%;
 }
+
+
+
+
 
 
 
@@ -85,6 +82,9 @@ img {
     height: 320px;
 
   }
+
+
+
 
 
 

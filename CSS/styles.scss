@@ -1,3 +1,12 @@
+$theme-colors:(
+"primary": #8a0bdb,
+"dager": #ff4138,
+
+
+
+);
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -28,33 +37,30 @@ body{
 }
 
 .btn1{
-  height: 65px !important;
-  width: 250px !important;
-  border-radius: 50px !important;
-  background-color:black !important;
-  color:#FFF !important;
-  border: 8px solid !important;
-  border-left-color: #28B8C4 !important;
-  border-right-color:#5D5AD1 !important;
-  border-block-start-color: #28B8C4 !important;
-  border-block-end-color: #5D5AD1 !important;
-}
-
-.standard{
-  background-image: url("../Images/mobile_colored_box.png");
-  background-repeat: no-repeat;
-  width: 100%;
+  height: 65px ;
+  width: 170px ;
+  border-radius: 50px;
+  background-color:black ;
+  color:#FFF ;
+  border: 8px solid ;
+  border-left-color: #28B8C4 ;
+  border-right-color:#5D5AD1 ;
+  border-block-start-color: #28B8C4;
+  border-block-end-color: #5D5AD1 ;
 }
 
 
+.rainbow{
+  background-image: url("../Images/tablet_computer_colored_box.png");
 
-
-
-
-
-img {
-  border-radius: 50%;
 }
+
+
+ul{
+  color: white;
+}
+
+
 
 
 
