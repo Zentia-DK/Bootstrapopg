@@ -7300,6 +7300,9 @@ body {
 ul {
   color: white; }
 
+#carouselExampleIndicators {
+  background-image: url("../Images/newworkplace.png"); }
+
 @media screen and (min-width: 768px) {
   body {
     background-image: url("../Images/tabletforside.png");
@@ -7344,7 +7347,11 @@ ul {
     height: 80px;
     width: 80px; }
   .p1 {
-    font-size: 45px; } }
+    font-size: 45px; }
+  #carouselExampleIndicators {
+    background-image: url("../Images/newworkplace.png");
+    height: 387px;
+    width: 768px; } }
 
 @media screen and (min-width: 1200px) {
   body {
@@ -7386,7 +7393,11 @@ ul {
     height: 90px;
     width: 90px; }
   .p1 {
-    font-size: 50px; } }
+    font-size: 50px; }
+  #carouselExampleIndicators {
+    background-image: url("../Images/newworkplace.png");
+    height: 387px;
+    width: 1920px; } }
 
 * {
   /* Gælder alt på hele siden */
@@ -7457,6 +7468,10 @@ img {
   .p1 {
     font-size: 30px; }
   .pcworkspace {
-    height: 320px; } }
+    height: 320px; }
+  #carouselExampleIndicators {
+    background-image: url("../Images/newworkplace.png");
+    height: 333px;
+    width: 320px; } }
 
 /*# sourceMappingURL=styles.css.map */
